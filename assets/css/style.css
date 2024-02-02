@@ -4,12 +4,15 @@ body{
     color: #ffffff;
     background-color: #000000;
     scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;  
 }
 
 /* Logo Navbar */
 .logo-size{
     width: 10%;
+}
+.text{
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Section Card */
@@ -27,10 +30,14 @@ body{
 a {
     text-decoration: none;
     color: #ffffff;
+    font-family: 'Oswald', sans-serif;
 }
 
 @media screen and (max-width: 575px) {
     footer a{
         font-size: 10px;
+    }
+    .logo-size{
+        display: none;
     }
 }
