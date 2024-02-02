@@ -12,7 +12,7 @@ body{
     width: 10%;
 }
 .text{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 
 /* Section Card */
@@ -27,17 +27,17 @@ body{
 } 
 
 /* Footer */
-a {
+footer a {
     text-decoration: none;
     color: #ffffff;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 
 @media screen and (max-width: 575px) {
-    footer a{
-        font-size: 10px;
-    }
     .logo-size{
         display: none;
+    }
+    footer a{
+        font-size: 10px;
     }
 }
