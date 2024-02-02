@@ -28,3 +28,9 @@ a {
     text-decoration: none;
     color: #ffffff;
 }
+
+@media screen and (max-width: 575px) {
+    footer a{
+        font-size: 10px;
+    }
+}
