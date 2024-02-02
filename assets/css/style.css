@@ -12,12 +12,19 @@ body{
     width: 10%;
 }
 
+/* Section Card */
+.size-card{
+    width: 100%;
+    height: 53%;
+}
+/* change color tooltip */
+.custom-tooltip{
+    --bs-tooltip-bg: #ffffff;
+    --bs-tooltip-color: #000000;
+} 
+
 /* Footer */
 a {
     text-decoration: none;
     color: #ffffff;
-}
-.size-card{
-    width: 100%;
-    height: 53%;
 }
