@@ -2,14 +2,14 @@ body{
     margin: 0px;
     padding: 0px;
     color: #ffffff;
-    background-color: #000000;
+    background-color: #212529;
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;  
 }
 
 /* Logo Navbar */
 .logo-size{
-    width: 10%;
+    width: 5%;
 }
 .text{
     font-family: 'Pacifico', cursive;
@@ -33,11 +33,12 @@ footer a {
     font-family: 'Pacifico', cursive;
 }
 
+/* Responsive */
 @media screen and (max-width: 575px) {
     .logo-size{
-        display: none;
+        width: 15%;
     }
     footer a{
-        font-size: 10px;
+        font-size: 8px;
     }
 }

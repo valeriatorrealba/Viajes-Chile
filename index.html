@@ -16,9 +16,8 @@
         <!-- NavBar -->
         <nav id="inicio" class="navbar navbar-expand-lg bg-body fixed-top bg-opacity-10">
             <div class="container">
-                <a class="navbar-brand navbar-display text-white" href="#inicio">
-                    <img class="logo-size pe-2" src="assets/img/viajes.svg" alt="logo-viajes"><span class="text fs-3">Viajes Chile</span>   
-                </a>
+                <img class="logo-size pe-2" src="assets/img/viajes.svg" alt="logo-viajes">
+                <a class="navbar-brand navbar-display text-white text" href="#inicio">Viajes Chile</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -42,7 +41,7 @@
         </nav>
         <!-- Carousel -->
         <section> 
-            <div id="carouselExample" class="carousel slide ">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
@@ -54,11 +53,11 @@
                         <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -72,7 +71,7 @@
             <div class="border border-white border-bottom-1 border-opacity-25"></div>
             <div class="row gap-1 justify-content-evenly pt-5">
                 <div class="col-10 col-sm-10 col-md-3 ">
-                    <i class="fa-solid fa-plane bg-info d-block fa-2x py-1 text-center"></i>
+                    <i class="fa-solid fa-plane bg-info d-block fa-2x py-1 text-center" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Lorem ipsum dolor"></i>
                     <p class="pt-2 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sapiente! Alias, nisi vero. Nihil obcaecati blanditiis nobis totam ipsum assumenda unde architecto facere libero vel maiores modi dicta, laudantium commodi!
                     Explicabo quos fugit reiciendis deserunt dolor, id iusto corrupti voluptatibus consequuntur sapiente quas obcaecati minus repellat quia dicta asperiores laboriosam labore ipsum ipsa. Praesentium nostrum amet corporis perferendis dolores aut.
                     Corrupti, possimus consectetur nostrum, labore dolores facilis debitis doloribus provident soluta nisi, enim qui! Dolore, voluptas excepturi. Facilis, doloribus itaque. Illum earum vel, magnam blanditiis sed hic labore at quae.</p>
@@ -81,10 +80,10 @@
                     <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sapiente! Alias, nisi vero. Nihil obcaecati blanditiis nobis totam ipsum assumenda unde architecto facere libero vel maiores modi dicta, laudantium commodi!
                     Explicabo quos fugit reiciendis deserunt dolor, id iusto corrupti voluptatibus consequuntur sapiente quas obcaecati minus repellat quia dicta asperiores laboriosam labore ipsum ipsa. Praesentium nostrum amet corporis perferendis dolores aut.
                     Corrupti, possimus consectetur nostrum, labore dolores facilis debitis doloribus provident soluta nisi, enim qui! Dolore, voluptas excepturi. Facilis, doloribus itaque. Illum earum vel, magnam blanditiis sed hic labore at quae.</p>
-                    <i class="fa-solid fa-mountain bg-info d-block fa-2x py-1 text-center"></i>
+                    <i class="fa-solid fa-mountain bg-info d-block fa-2x py-1 text-center" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Lorem ipsum dolor"></i>
                 </div>
                 <div class="col-10 col-sm-10 col-md-3 ">
-                    <i class="fa-solid fa-route bg-info d-block fa-2x py-1 text-center"></i>
+                    <i class="fa-solid fa-route bg-info d-block fa-2x py-1 text-center" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Lorem ipsum dolor"></i>
                     <p class="pt-2 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sapiente! Alias, nisi vero. Nihil obcaecati blanditiis nobis totam ipsum assumenda unde architecto facere libero vel maiores modi dicta, laudantium commodi!
                     Explicabo quos fugit reiciendis deserunt dolor, id iusto corrupti voluptatibus consequuntur sapiente quas obcaecati minus repellat quia dicta asperiores laboriosam labore ipsum ipsa. Praesentium nostrum amet corporis perferendis dolores aut.
                     Corrupti, possimus consectetur nostrum, labore dolores facilis debitis doloribus provident soluta nisi, enim qui! Dolore, voluptas excepturi. Facilis, doloribus itaque. Illum earum vel, magnam blanditiis sed hic labore at quae.</p>
@@ -101,7 +100,7 @@
                 <div class="row g-3 justify-content-evenly py-5">
                     <!-- Card1 -->
                     <div class="col-10 col-sm-10 col-md-3">
-                        <div class="card h-100 bg-info text-white ">
+                        <div class="card h-100 bg-info text-white border-white">
                             <img src="assets/img/card1.jpg" class="card-img-top" alt="Card1">
                             <div class="card-body fw">
                                 <h5 class="card-title text-center">Lorem ipsum dolor sit amet</h5>
@@ -111,7 +110,7 @@
                     </div>
                     <!-- Card2 -->
                     <div class="col-10 col-sm-10 col-md-3">
-                        <div class="card h-100 bg-info text-white">
+                        <div class="card h-100 bg-info text-white border-white">
                             <img src="assets/img/card2.jpg" class="card-img-top size-card" alt="Card2">
                             <div class="card-body fw">
                                 <h5 class="card-title text-center"> Consectetur adipisicing elit</h5>
@@ -121,7 +120,7 @@
                     </div>
                     <!-- Card3 -->
                     <div class="col-10 col-sm-10 col-md-3">
-                        <div class="card h-100 bg-info text-white">
+                        <div class="card h-100 bg-info text-white border-white">
                             <img src="assets/img/card3.jpg" class="card-img-top" alt="Card3">
                             <div class="card-body fw">
                                 <h5 class="card-title text-center">Sed do eiusmod tempor incididunt ut labore</h5>
@@ -131,7 +130,7 @@
                     </div>
                     <!-- Card4 -->
                     <div class="col-10 col-sm-10 col-md-3">
-                        <div class="card h-100 bg-info text-white">
+                        <div class="card h-100 bg-info text-white border-white">
                             <img src="assets/img/card4.jpg" class="card-img-top" alt="Card4">
                             <div class="card-body fw">
                                 <h5 class="card-title text-center">Ut enim ad minim veniam</h5>
